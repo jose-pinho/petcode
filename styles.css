@@ -39,7 +39,7 @@ body{
 /* BANNER  */
 
 #banner{
-    background-image: url(./Assets/img/banner.jpeg);
+    background-image: url(/Assets/img/banner.jpeg);
     height: calc(100vh - 220px);
     background-size: cover;
     background-attachment: fixed;
