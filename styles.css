@@ -1,0 +1,224 @@
+body{
+    background-image:linear-gradient(top left to bottom left, #888888,#ffffff)!important;
+}
+
+/* HEADER  */
+
+.navbar-toggler-btn{
+    border: 1px solid aliceblue;
+}
+
+.navbar-toggler-icon-span{
+    color: aliceblue;
+}
+
+.navbar-estilos{
+    background-color: #2a9d8f;
+    color: aliceblue;
+}
+
+.navbar-color,.nav-item{
+    color: aliceblue !important;
+}
+.navbar-color:hover{
+    color:aliceblue;
+}
+
+.navbar-color-title{
+    font-size: 35px;
+    font-weight:900;
+    color:orangered !important;
+    -webkit-text-stroke: 1px white!important;
+   }
+
+.navbar-form{
+    align-items: flex-end;
+    text-align: end;
+}
+
+/* BANNER  */
+
+#banner{
+    background-image: url(./assets/banner.jpeg);
+    height: calc(100vh - 220px);
+    background-size: cover;
+    background-attachment: fixed;
+    /* color:aliceblue; */
+    opacity: 0.8;
+}
+
+#banner h1{
+    font-size: 75px;
+    color: #2a9d8f;
+    font-weight: bold;
+    opacity: unset;
+}
+
+#banner p{
+    color: #219ebc;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* SEÇÕES  */
+.card{
+    box-shadow: 2px 2px 8px #dddddd !important;
+}
+.card-subtitle{
+    color:orangered;
+    font-size: large;
+    font-weight: bolder;
+}
+.section-item{
+    margin-top: 20px;
+    padding: 10px 0 10px;
+}
+
+.section-title{
+    color:aliceblue ;
+    font-weight: bold;
+    background-color: orangered;
+    border-radius: 10px;
+    padding: 10px 10px;
+    max-width: fit-content;
+}
+
+.section-subtitle{
+    font-size: 22px;
+    margin-top:20px;
+
+}
+
+.card-img p{
+    font-size: 18px;
+    color: red;
+}
+
+
+/* FOOTER  */
+#copy-area .container{
+    padding: 10px;
+    text-align: center;
+    background-color: #2a9d8f;
+    margin: 20px 0 0 0;
+    max-width: 100%;
+    color: aliceblue;
+}
+
+#copy-area .container p{
+    margin-bottom: 0;
+}
+
+#copy-area .container a{
+    font-weight: bold;
+    color: aliceblue;
+}
+
+/* Equipe */
+
+.content{
+    max-width: 70%;
+    margin: 2% auto;
+}
+
+ol{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+.th-dark{
+    background-color:#41b0a3!important;
+    color: aliceblue; 
+}
+
+table{
+    box-shadow: 2px 2px 18px #264653;
+}
+
+
+.table:hover{
+background-color: #264653 !important;    
+}
+
+/* FORMULARIO CONTATE-NOS */
+
+form{
+    max-width: 40%;
+    margin: 5px auto;
+    
+}
+
+.form-check{
+    display: flex;
+    flex-direction: row;
+}
+
+form>h2{
+    color: orangered !important;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+    font-weight: 900;
+} 
+.mb-3>.btn{
+    border-radius: 9px;
+    padding: 8px 35px;
+}
+.mb-3>.btn:hover{
+    transition: all .3s ease-in-out;
+    background-color: brown;
+    border-radius: 9px;
+    border-color: brown;
+}
+
+div a{
+    text-decoration: none;
+}
+.hr1{
+    width: 75%;
+}
+.fm{
+    display: flex;
+    flex-flow: row nowrap;
+    align-content: space-around;
+}
+.boxform{
+    box-shadow: 1px 4px 8px 0.5px rgba(195, 194, 194, 0.8);
+}
+
+/* */
+
+.servico{
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    align-self: center;
+    color: aliceblue;
+}
+.servico .card{
+    /* box-shadow: 1px 1px  12px #41b0a3 !important; */
+    margin: 5px;
+    background-color: #41b0a3;
+}
+.btn{
+    background-color:  rgb(227, 120, 19) !important;
+    border: 1px solid rgb(227, 120, 19)!important;
+    
+}
+
+.btn:hover{
+    background-color:  orangered !important;
+    border: 1px solid orangered !important;
+    
+}
+ 
+ 
+
+.btn-primary,
+.btn-primary:focus {
+    color: #fff;
+    background-color:none!important;
+    border-color: none !important;
+    box-shadow: none !important;
+}
